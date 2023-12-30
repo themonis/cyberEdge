@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="main.css">
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>CyberEdge</title>
+</head>
+<style>
+    * {
+        scroll-behavior: smooth;
+    }
+</style>
+
+<body class="h-auto">
+    <!-- NAVBAR -->
+
+    <header class="bg-deepBlue">
+        <nav class="flex items-center justify-between w-11/12 max-w-[1000px] py-5  mx-auto">
+            <div>
+                <img class="w-[120px]" src="./images/logo.png" alt="">
+            </div>
+            <div
+                class="nav-links md:static absolute bg-deepBlue md:min-h-fit min-h-[65vh] md:w-auto left-0 -top-[100%] w-full flex items-center px-5">
+                <ul class="flex md:flex-row flex-col md:items-center md:gap-[2rem] gap-7">
+                    <li class="hover:text-greenLight text-skyBlue text-xl font-mullish">
+                        <a class="hover:text-greenLight text-skyBlue text-xl font-mullish" href="#home">Home</a>
+                    </li>
+                    <li class="hover:text-greenLight text-skyBlue text-xl font-mullish">
+                        <a class="" href="#mission">OurMisssion</a>
+                    </li>
+                    <li class="hover:text-greenLight text-skyBlue text-xl font-mullish">
+                        <a class="" href="#vision">OurVision</a>
+                    </li>
+                    <li class="hover:text-greenLight text-skyBlue text-xl font-mullish">
+                        <a class="" href="#aboutus">AboutUs</a>
+                    </li>
+                  
+                    
+
+
+                </ul>
+
+            </div>
+            <div class="flex items-center gap-6 text-white">
+
+                <div class="  hover:text-blue transition-all duration-200 hover:scale-[1.1] hover:shadow-md hover:shadow-white text-black text-xl font-mullish px-6 py-2 bg-greenLight rounded-md hidden md:flex items-center justify-center gap-4">
+                    <a class="" href="https://linktr.ee/cyberedge.org.in">ContactUs</a>
+                    <i class=" submit-icon fa-solid fa-paper-plane"></i>
+                </div>
+                <ion-icon onclick="onToggleMenu(this)" name="menu"
+                    class="text-3xl cursor-pointer  md:hidden"></ion-icon>
+
+            </div>
+
+        </nav>
+    </header>
+
+
+    <!-- HOME SECTION -->
+    <section class="bg-deepBlue relative" id="home">
+        <div class="flex flex-col w-11/12 max-w-[800px] mx-auto gap-3 py-28 items-center">
+
+            <h3 class="font-mullish text-5xl text-white ">Who we are</h3>
+            <div class="h-1 w-8 bg-greenLight my-2"></div>
+            <p class="font-mullish text-lg text-skyBlue w-full leading-[1.5]">CyberEdge is more than just a committee;
+                we
+                are
+                a
+                dedicated team of cybersecurity enthusiasts committed
+                to equipping the next generation with essential knowledge and skills to navigate the
+                <span class="items-center">digital world
+                    securely.</span>
+            </p>
+        </div>
+        <img src="./images/hecked.jpg" alt="" width="600px" class="mx-auto rounded-md shadow-md shadow-skyBlue">
+    </section>
+
+
+    <!-- EMPOWRING SECTION -->
+
+    <section class="bg-deepBlue relative h-auto" id="mission">
+
+
+        <div class="flex flex-col items-center w-11/12 max-w-[1400px] mx-auto gap-2 py-[150px] z-50 pb-[300px]">
+            <img src="./images/bg-hero.svg" class="relative hidden md:block" alt="">
+
+            <!-- CONTENT -->
+            <div class=" relative md:absolute items-center w-11/12 max-w-[1000px] mx-auto mb-8">
+                <!-- HEADING -->
+
+                <h3 class=" font-mullish text-4xl  text-white text-center">Empowering Tomorrow's Digital Defenders
+                </h3>
+
+                <div class="w-8 h-1 bg-greenLight mx-auto mt-10"></div>
+                <!-- CARDS -->
+                <div
+                    class="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2  gap-x-6 gap-y-5 py-16 relative md:absolute mx-auto">
+                    <!-- CARD1 -->
+                    <div
+                        class=" bg-CardsColor flex flex-col py-7 px-12 items-center rounded-sm border min-w-[200px] md:min-w-[500px] border-gray-500  transition-all duration-200">
+
+                        <h3 class="font-mullish text-white text-3xl my-3">Approach</h3>
+
+                        <p class="font-mullish text-skyBlue text-lg my-3 leading-7">At CyberEdge, we take a hands-on
+                            approach to
+                            cybersecurity
+                            education. Through interactive
+                            workshops, real-world simulations, and engaging challenges, we ensure that our students not
+                            only
+                            understand the basics but can also apply them effectively in the digital realm.
+                        </p>
+                    </div>
+
+                    <!-- CARD2 -->
+                    <div
+                        class=" bg-CardsColor flex flex-col py-7 px-12 items-center rounded-sm border min-w-[200px] md:min-w-[500px] border-gray-500 hover:shadow-slate-700 transition-all duration-200">
+
+
+
+
+                        <h3 class="font-mullish text-white text-3xl my-3">Commitment</h3>
+
+                        <p class="font-mullish text-skyBlue text-lg my-3 leading-7">At We are committed to responsible
+                            digital citizenship. We emphasize not only the protection of one's digital life but also the
+                            ethical use of technology. We believe that a responsible digital citizen is an empowered
+                            one.
+
+                        </p>
+                    </div>
+
+
+
+
+                    <!-- CARD3 -->
+                    <div
+                        class=" bg-CardsColor flex flex-col py-7 px-12 items-center rounded-sm border min-w-[200px] md:min-w-[500px] border-gray-500 hover:shadow-slate-700 transition-all duration-200">
+
+                        <img src="./images/" alt="">
+
+
+                        <h3 class="font-mullish text-white text-3xl my-3">Impact
+                        </h3>
+
+                        <p class="font-mullish text-skyBlue text-lg my-3 leading-7">At Over the years, CyberEdge has
+                            achieved significant milestones, inspiring countless students to become vigilant and
+                            informed users of technology. Their stories and experiences stand as a testament to the
+                            effectiveness of our program.
+
+
+                        </p>
+                    </div>
+
+                    <!-- CARD4 -->
+
+                    <div
+                        class=" bg-CardsColor flex flex-col py-7 px-12 items-center rounded-sm border min-w-[200px] md:min-w-[500px] border-gray-500 hover:shadow-slate-700 transition-all duration-200">
+
+                        <img src="./images/" alt="">
+
+
+                        <h3 class="font-mullish text-white text-3xl my-3">Get Involved</h3>
+
+                        <p class="font-mullish text-skyBlue text-lg my-3 leading-7">At Whether you're a student eager to
+                            enhance your cybersecurity knowledge or an organization interested in collaborating, we
+                            invite you to join us on this journey. Together, we can make the digital
+                            world a safer place.
+                        </p>
+                    </div>
+
+                </div>
+
+
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- VISION SECTION -->
+
+    <section class="relative mt-[100px] " id="vision">
+
+        <img src="./images/dots-with-cut.bde9e78f (1).png"
+            class="absolute -top-[6rem] left-[9rem] md:inline-block z-10 rotate-180 hidden md:" alt="" loading="lazy"
+            width="233" height="167">
+        <img src="./images/dots-with-cut.bde9e78f (1).png" class="absolute top-5 right-0 hidden md:inline-block z-10"
+            alt="" loading="lazy" width="233" height="167">
+
+        <div class="relative w-11/12 max-w-[1000px] mx-auto pt-3">
+            <img src="./images/vision.png" class=" mx-auto py-2" alt="">
+
+            <h2 class="font-mullis text-deepBlue text-4xl text-center font-bold">Vision</h2>
+            <div class="w-8 h-1 bg-greenLight mx-auto mt-4 mb-6"></div>
+            <!-- CARDS -->
+            <div class=" w-full grid grid-cols-1 md:grid-cols-2 md:grid-rows-2 mt-10 gap-5 pb-7">
+                <!-- CARD1 -->
+                <div
+                    class="w-full relative flex flex-col justify-between cursor-pointer hover:shadow-2xl transition-all duration-200 py-7 px-12 ">
+                    <h1 class="font-mullish text-deepBlue text-2xl my-4">Building a Foundation for Cybersecurity</h1>
+                    <p class="font-mullish text-skyBlue text-xl my-4 leading-6">Provide students with essential
+                        knowledge and
+                        skills to navigate the digital world securely.
+                        Equip them with fundamental concepts of cybersecurity, such as password management, safe
+                        browsing, and data protection</p>
+                </div>
+                <!-- CARD2 -->
+
+                <div
+                    class="w-full relative flex flex-col justify-between cursor-pointer hover:shadow-2xl transition-all duration-200 py-7 px-12 ">
+                    <h1 class="font-mullish text-deepBlue text-2xl my-4">Creating Awareness about Cyber Threats</h1>
+                    <p class="font-mullish text-skyBlue text-xl my-4 leading-6">Raise awareness about the various forms
+                        of cybercrimes, including phishing, malware, and identity theft.
+                        Showcase real-world examples and case studies to illustrate the impact of cyber threats on
+                        individuals and organizations.
+
+                    </p>
+                </div>
+                <!-- CARD3 -->
+
+                <div
+                    class="w-full relative flex flex-col justify-between cursor-pointer hover:shadow-2xl transition-all duration-200 py-7 px-12 ">
+                    <h1 class="font-mullish text-deepBlue text-2xl my-4">Promoting Responsible Digital Citizenship:</h1>
+                    <p class="font-mullish text-skyBlue text-xl my-4 leading-6">Encourage responsible online behavior
+                        and ethical use of technology.
+                        Emphasize the importance of respecting digital privacy, intellectual property, and online
+                        etiquette.
+                    </p>
+                </div>
+                <!-- CARD4 -->
+
+                <div
+                    class="w-full relative flex flex-col justify-between cursor-pointer hover:shadow-2xl transition-all duration-200 py-7 px-12 ">
+                    <h1 class="font-mullish text-deepBlue text-2xl my-4">Fostering a Cybersecurity Mindset</h1>
+                    <p class="font-mullish text-skyBlue text-xl my-4 leading-6">Inspire students to think like
+                        cybersecurity professionals by instilling a proactive mindset for identifying and mitigating
+                        risks.
+                        Introduce them to cybersecurity career paths and opportunities.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABIUT US SECTION -->
+
+    <section class="relative bg-CardsColor " id="aboutus">
+        <div class="w-11/12 max-w-[1080px] py-10 mx-auto">
+            <h3 class="font-mullish text-white text-5xl text-center ">Our Team</h3>
+
+            <div class="w-8 h-1 bg-greenLight mx-auto mt-4 mb-2"></div>
+
+            <!-- MEMEBER CONTAINER -->
+            <div class="w-full relative grid grid-cols-1 md:grid-cols-3 md:grid-rows-4 gap-x-6 gap-y-4 py-7">
+                <!-- MEMBER1 -->
+                <div class="flex flex-col gap-3 items-center shadow-lg">
+                  <a href="https://www.linkedin.com/in/mohd-monis-khan-78880628a/"> <div class="h-[360px] w-[250px] overflow-hidden hover:scale-[0.9] transition-all duration-200 rounded-md">
+                        <img src="./images/members/monis1.jpg" width="350px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide py-3">Mohd Monis khan</h3>
+                </div>
+                <!-- MEMBER2 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                   <a href="https://www.linkedin.com/in/gauhar-akhtar"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/gauhar1.jpg" height="700px" width="600px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Gauhar Akhtar</h3>
+                </div>
+                <!-- MEMBER3 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                   <a href="https://www.linkedin.com/in/anju-sahu-0a9909259/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/anju.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Anju Sahu</h3>
+                </div>
+                <!-- MEMBER4 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                   <a href="https://www.linkedin.com/in/shivam-chandravanshi-568a64256/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/shivam.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Shivam Verma</h3>
+                </div>
+                <!-- MEMBER5 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                  <a href="https://www.linkedin.com/in/anjali-chopariya-563798261/">  <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/anjUlI1.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Anjali Chopariya</h3>
+                </div>
+                <!-- MEMBER6 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                   <a href="https://www.linkedin.com/in/shubh-rathore-5951b1278/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md  hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/shubhra.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Shubham Rathore</h3>
+                </div>
+                <!-- MEMBER7 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                  <a href="https://www.linkedin.com/in/dolly-yadav-4b3051292/">  <div class=" hover:scale-[0.9] transition-all duration-200 h-[360px] w-[250px] overflow-hidden rounded-md">
+                        <img src="./images/members/dolly.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Dolly Yadav</h3>
+                </div>
+                <!-- MEMBER8 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                   <a href="https://www.linkedin.com/in/mohammad-ashif-651339256/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/ashif1.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">MD Ashif</h3>
+                </div>
+                <!-- MEMBER9 -->
+
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                   <a href="https://www.linkedin.com/in/pavan-vishawkarma-234173255/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/awan.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Pawan Vishwakarma</h3>
+                </div>
+
+                <!-- MEMBER9 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                  <a href="https://www.linkedin.com/in/ishika-lovewanshi-a47109287/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/ishika.jpg" height="500px" width="500px">
+                    </div></a> 
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Ishika Lovewenshi</h3>
+                </div>
+                <!-- MEMBER9 -->
+                <div class="flex flex-col gap-3 items-center shadow-md">
+                    <a href="https://www.linkedin.com/in/mahir-shrivastava-831203257/"><div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+                        <img src="./images/members/mahir.jpg" height="500px" width="500px">
+                    </div></a>
+                    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Mahir Shrivastava</h3>
+                </div>
+
+<!-- MEMBER9 -->
+<div class="flex flex-col gap-3 items-center shadow-md">
+   <a href="https://www.linkedin.com/in/kapil-kumar-sahu-b8b520261/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200" >
+        <img src="./images/members/kpil.jpg" height="500px" width="500px">
+    </div></a>
+    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Kapil Kumar Sahu</h3>
+</div>
+
+<div class="flex flex-col gap-3 items-center shadow-md">
+   <a href="https://www.linkedin.com/in/priyanka-gupta-b97013291/"> <div class="h-[360px] w-[250px] overflow-hidden rounded-md hover:scale-[0.9] transition-all duration-200">
+        <img src="./images/members/priyanka1.jpg" height="500px" width="500px">
+    </div></a>
+    <h3 class="font-mullish text-3xl text-skyBlue tracking-wide ">Priyanka Gupta</h3>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+
+    <section class="relative bg-deepBlue overflow-hidden" id="contactus">
+        <div class="relative w-11/12 max-w-[1000px] mx-auto pt-10 mt-10 py-10">
+
+
+            <h3 class="font-mullish text-white text-5xl">Contact Us</h3>
+            <div class="flex flex-col gap-4 mt-10 mx-auto w-[70%] py-6">
+                <form action="https://formspree.io/f/xrgwyajv" 
+                method="post">
+                    <div class="flex flex-col gap-5">
+                        <input type="text" name="name" id="" placeholder="Enter Your Name"
+                            class="text-lg py-1 px-5 rounded-md shadow-md shadow-skyBlue">
+
+                        <input type="email" name="email" placeholder="Enter Your E-Mail"
+                            class="text-lg py-1 px-5 rounded-md shadow-md shadow-skyBlue">
+
+                        <input type="number" name="subject" placeholder="Enter Your Contact No."
+                            class="text-lg py-1 px-5 border-none rounded-md shadow-md shadow-skyBlue">
+
+
+                        <textarea name="message" id="" cols="30" rows="8"
+                            class="text-lg py-1 px-5 rounded-md shadow-md shadow-skyBlue"
+                            placeholder="Enter Your Message"></textarea>
+                    </div>
+                    <button
+                        class="
+                    my-9 font-mullish text-xl text-white py-2 px-7 bg-red-700 rounded-md flex gap-3 items-center hover:scale-[1.1] transition-all duration-200 hover:shadow-md hover:shadow-red-300"
+                        type="submit" id="submit-btn">
+                        Send Message <i class=" submit-icon fa-solid fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+
+
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="relative bg-blue-950">
+        <div class="relative w-11/12 max-w-[1200px] mx-auto flex gap-[1.5rem] items-center justify-between py-7">
+            <ul class="flex flex-col md:flex-row gap-4">
+                <li
+                    class="font-mullish text-skyBlue py-7 text-xl  transition-all duration-200 cursor-pointer group hover:text-greenLight">
+                    <a href="#home" class="">Home</a>
+                </li>
+                <li
+                    class="font-mullish text-skyBlue py-7 text-xl relative translate-all duration-200 hover:text-greenLight cursor-pointer group">
+                    <a href="#mission" class="">OurMisssion</a>
+                </li>
+                <li
+                    class="font-mullish text-skyBlue py-7 text-xl relative translate-all duration-200 hover:text-greenLight cursor-pointer group">
+                    <a href="#vision" class="">OurVision</a>
+                </li>
+                <li
+                    class="font-mullish text-skyBlue py-7 text-xl relative translate-all duration-200 hover:text-greenLight cursor-pointer group">
+                    <a href="#aboutus" class="">AboutUs</a>
+                </li>
+                <li
+                    class="font-mullish text-skyBlue py-7 text-xl relative translate-all duration-200 hover:text-greenLight cursor-pointer group">
+                    <a href="#contactus" class="">ContactUs</a>
+                </li>
+            </ul>
+
+            <!-- SOCIAL ICONS -->
+            <div class="flex flex-col md:flex-row gap-5 ">
+                <a href="https://www.linkedin.com/in/cyberedge-committee-5a851228b/"
+                    class="text-white text-2xl hover:text-greenLight transition-all duration-200"><i title="LinkdinLink"
+                        class="fa-brands fa-linkedin icon"></i></a>
+
+                <a href="https://www.instagram.com/cyberedge.org.in/"
+                    class="text-white text-2xl hover:text-greenLight"><i title="InstagramLink" class="fa-brands fa-instagram 
+                    icon"></i></a>
+
+                <a href="https://t.me/cyberedge69" class="text-white text-2xl transition-all duration-200 hover:text-greenLight"><i class="fa-brands fa-telegram"></i></a>
+
+
+
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- COPYWRITE SECTION -->
+    <footer class="relative bg-deepBlue">
+        <div class="w-11/12 max-w-[1000px] flex flex-col md:flex-row gap-4 items-center justify-center py-9 mx-auto">
+            <h3 class="font-mullish text-skyBlue text-xl ">Copywrite @ 2023 Cyber Edge |</h3>
+
+            <h3 class="font-mullish text-skyBlue text-xl">
+                Powered by
+                
+               <a href="https://moniskhan.s3.ap-south-1.amazonaws.com/index.html" class=""> <span class="text-red-600 hover:text-greenLight font-bold text-xl duration-200 transition-all  tracking-wider">Mohd Monis khan</span></a>
+            </h3>
+        </div>
+    </footer>
+
+
+
+
+    <script>
+
+        const navlinks = document.querySelector('.nav-links')
+        function onToggleMenu(e) {
+            e.name = e.name === 'menu' ? 'close' : 'menu'
+
+            navlinks.classList.toggle('top-[9%]')
+        }
+    </script>
+</body>
+
+</html>
